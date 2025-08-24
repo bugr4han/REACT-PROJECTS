@@ -1,0 +1,133 @@
+/* Sayfa varsayılan arka plan rengi (açık tema) ve yazı rengi */
+body {
+  background: #fff;
+  color: #333;
+  transition: background 0.3s, color 0.3s; /* Tema geçiş animasyonu */
+}
+
+/* Koyu tema arka plan ve yazı rengi */
+body.dark {
+  background: #1e1e1e;
+  color: #fff;
+}
+
+/* Koyu tema buton arka plan ve yazı rengi */
+body.dark button {
+  background-color: #ff6f61;
+  color: #fff;
+}
+
+/* Koyu tema - Ürün kartlarının arka plan ve yazı rengi */
+body.dark .product-card,
+body.dark .product-details-card {
+  background-color: #2b2b2b;
+  color: #fff;
+}
+
+/* Koyu tema - Ürün başlık rengi */
+body.dark .product-title,
+body.dark .product-details-title {
+  color: #fff;
+}
+
+/* Koyu tema - Ürün açıklama metni rengi */
+body.dark .product-description,
+body.dark .product-details-description {
+  color: #ddd;
+}
+
+/* Koyu tema - Ürün fiyat rengi */
+body.dark .product-price,
+body.dark .product-details-price {
+  color: #ffb4a6;
+}
+
+/* Koyu tema - Ürün kategorisi ve puan rengi */
+body.dark .product-details-category,
+body.dark .product-details-rating {
+  color: #ccc;
+}
+
+/* Koyu tema - Header arka plan ve yazı rengi */
+body.dark .header {
+  background: #3a3939;
+  color: #fff;
+}
+
+/* Koyu tema - Sepet drawer arka plan degradeli görünüm */
+body.dark .custom-drawer {
+  background: linear-gradient(180deg, #1f1f1f, #2b2b2b);
+  color: #fff;
+}
+
+/* Koyu tema - Drawer başlık rengi ve alt çizgi */
+body.dark .drawer-content h2 {
+  color: #fff;
+  border-bottom: 2px solid #444;
+}
+
+/* Koyu tema - Boş sepet yazı rengi */
+body.dark .empty-cart {
+  color: #aaa;
+}
+
+/* Koyu tema - Sepet içindeki ürün kartı arka plan ve gölge */
+body.dark .cart-item {
+  background: #2b2b2b;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Koyu tema - Sepet ürün kartı hover gölge efekti */
+body.dark .cart-item:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.7);
+}
+
+/* Koyu tema - Ürün görseli çerçeve rengi */
+body.dark .cart-item img {
+  border: 1px solid #444;
+}
+
+/* Koyu tema - Ürün ismi rengi */
+body.dark .cart-info h4 {
+  color: #fff;
+}
+
+/* Koyu tema - Ürün fiyat bilgisi rengi */
+body.dark .cart-info p {
+  color: #ff8c66;
+}
+
+/* Koyu tema - Ürün adedi ve fiyatı yanındaki açıklama rengi */
+body.dark .cart-info span {
+  color: #bbb;
+}
+
+/* Koyu tema - Sepetten sil buton arka plan rengi */
+body.dark .remove-btn {
+  background: #ff4d4f;
+}
+
+/* Koyu tema - Sepetten sil buton hover arka plan rengi */
+body.dark .remove-btn:hover {
+  background: #d9363e;
+}
+
+/* Koyu tema - Drawer alt kısmı (footer) üst çizgi rengi */
+body.dark .drawer-footer {
+  border-top: 2px solid #444;
+}
+
+/* Koyu tema - Toplam fiyat yazı rengi */
+body.dark .total-price {
+  color: #fff;
+}
+
+/* Koyu tema - Satın al buton arka plan rengi */
+body.dark .checkout-btn {
+  background: #ff7f50;
+}
+
+/* Koyu tema - Satın al buton hover rengi */
+body.dark .checkout-btn:hover {
+  background: #ff6438;
+}

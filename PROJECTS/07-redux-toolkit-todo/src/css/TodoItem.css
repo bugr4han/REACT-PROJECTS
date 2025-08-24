@@ -1,0 +1,83 @@
+.todoItem-container {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(40, 40, 40, 0.6);
+  padding: 15px 20px;
+  margin: 10px 40px;
+  border-radius: 25px;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.todoItem-container:hover {
+  transform: translateY(-3px);
+}
+
+.todoItem-contentPlace {
+  display: flex;
+  padding: 2px 16px;
+  font-size: 18px;
+  color: #f0f0f0;
+  word-break: break-word;
+  flex: 1;
+  margin-right: 15px;
+}
+
+.todoItem-iconButtons {
+  display: flex;
+  gap: 15px;
+}
+
+.delete {
+  color: #f0f0f0;
+  font-size: 22px;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.delete:hover {
+  color: red;
+  transform: scale(1.2);
+}
+
+.edit {
+  color: #f0f0f0;
+  font-size: 22px;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.edit:hover {
+  color: #505ae9;
+  transform: scale(1.2);
+}
+
+.check {
+  margin-right: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  color: #f0f0f0;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  transition: transform 0.25s ease, color 0.25s ease, text-shadow 0.25s ease;
+}
+
+.check:hover {
+  color: #00ff7f;
+  transform: scale(1.2);
+  text-shadow: 0 0 10px #00ff7f, 0 0 20px #00ff7f, 0 0 30px #00ff7f;
+  filter: drop-shadow(0 0 8px #00ff7f);
+}
+
+.edit-input {
+  font-family: "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #505ae9;
+  width: 388px;
+  background: transparent;
+  border: none;
+  outline: none;
+}

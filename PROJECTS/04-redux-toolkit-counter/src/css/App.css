@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #4a0000, #8b0000);
+  color: #ffffff;
+}
+
+.container {
+  width: 420px;
+  height: 250px;
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  box-shadow: 0 0 50px rgb(129, 1, 27);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#counterLabel {
+  font-size: 85px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-shadow: 0 5px 12px rgba(0, 0, 0, 0.4);
+  user-select: none;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.button {
+  cursor: pointer;
+  padding: 12px 28px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.12);
+  border: none;
+  color: #fff;
+  letter-spacing: 0.5px;
+  transition: all 0.25s ease;
+  user-select: none;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
+}
+
+.button:active {
+  transform: scale(0.95);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+#increase:hover {
+  background: linear-gradient(135deg, #006400, #00a000);
+}
+
+#decrease:hover {
+  background: linear-gradient(135deg, #b22222, #ff3030);
+}
+
+#reset:hover {
+  background: linear-gradient(135deg, #b8860b, #ffd700);
+}

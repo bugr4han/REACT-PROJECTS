@@ -1,0 +1,16 @@
+.balance-section {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.balance-section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #b0b0b0;
+}
+
+.balance-section #balance {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+}
