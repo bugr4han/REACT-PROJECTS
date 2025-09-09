@@ -1,0 +1,132 @@
+/* Drawer genel görünümü */
+.custom-drawer {
+  width: 450px;
+  max-width: 100%;
+  background: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Başlık */
+.drawer-content h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 8px;
+  color: #1f1f1f;
+}
+
+/* Boş sepet mesajı */
+.empty-cart {
+  text-align: center;
+  color: #999;
+  font-size: 15px;
+  margin-top: 40px;
+}
+
+/* Sepet ürün kartı */
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #eee;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cart-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Ürün görseli */
+.cart-item img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+/* Ürün bilgileri */
+.cart-info {
+  flex: 1;
+}
+
+.cart-info h4 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+}
+
+.cart-info p {
+  margin: 4px 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ff4400;
+}
+
+.cart-info span {
+  font-size: 12px;
+  color: #666;
+}
+
+/* Sepetten sil butonu */
+.remove-btn {
+  background: #ff4d4f;
+  border: none;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.25s ease, transform 0.15s ease;
+}
+
+.remove-btn:hover {
+  background: #d9363e;
+  transform: scale(1.05);
+}
+
+/* Alt kısım */
+.drawer-footer {
+  margin-top: auto;
+  padding-top: 16px;
+  border-top: 1px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.total-price {
+  font-size: 17px;
+  font-weight: 700;
+  text-align: right;
+  color: #222;
+}
+
+/* Satın al butonu */
+.checkout-btn {
+  background: #ff7f50;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 10px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.25s ease, transform 0.15s ease;
+}
+
+.checkout-btn:hover {
+  background: #ff6438;
+  transform: translateY(-2px);
+}

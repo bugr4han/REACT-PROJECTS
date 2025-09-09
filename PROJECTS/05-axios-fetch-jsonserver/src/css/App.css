@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2, #ff758c);
+  background-size: 400% 400%;
+  animation: gradientShift 12s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.api-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.api-group h2 {
+  margin-bottom: 15px;
+  color: #fff;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.api-buttons-column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+button {
+  width: 160px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.fetch-get {
+  background: linear-gradient(135deg, #43cea2, #185a9d);
+}
+.fetch-post {
+  background: linear-gradient(135deg, #36d1dc, #5b86e5);
+}
+.fetch-put {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+.fetch-delete {
+  background: linear-gradient(135deg, #ff758c, #ff7eb3);
+}
+
+.axios-get {
+  background: linear-gradient(135deg, #f6d365, #fda085);
+  color: #333;
+}
+.axios-post {
+  background: linear-gradient(135deg, #84fab0, #8fd3f4);
+  color: #333;
+}
+.axios-put {
+  background: linear-gradient(135deg, #cfd9df, #e2ebf0);
+  color: #333;
+}
+.axios-delete {
+  background: linear-gradient(135deg, #ff9966, #ff5e62);
+}
