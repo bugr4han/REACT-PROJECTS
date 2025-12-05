@@ -1,0 +1,24 @@
+@import url("./Containers.css");
+@import url("./Balance.css");
+@import url("./Summary.css");
+@import url("./Section.css");
+@import url("./ToggleButtons.css");
+@import url("./Form.css");
+@import url("./Transaction.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0c0c0c 100%);
+  padding: 20px;
+  color: #e0e0e0;
+}

@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at top left, #1a1a1a, #000);
+  color: #eee;
+}
+
+.container {
+  padding: 5px;
+  width: 1350px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+
+  background: rgba(15, 15, 15, 0.9);
+  border-radius: 12px;
+  border: 2px solid transparent;
+
+  background-clip: padding-box, border-box;
+  background-origin: border-box;
+  background-image: linear-gradient(
+      rgba(15, 15, 15, 0.9),
+      rgba(15, 15, 15, 0.9)
+    ),
+    linear-gradient(135deg, #ff00cc, #3333ff, #00ffd5);
+}

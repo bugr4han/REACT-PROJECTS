@@ -1,0 +1,110 @@
+/* Body ve container */
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2); /* Modern gradient */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container */
+.container {
+  width: 480px;
+  min-height: 450px;
+  padding: 35px 30px;
+  background: #ffffffee; /* Hafif transparan beyaz */
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  backdrop-filter: blur(8px); /* modern blur efekti */
+}
+
+/* Form alanları */
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.formGroup {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.formLabel {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #1f2937;
+  font-size: 15px;
+}
+
+.formInput {
+  padding: 12px 14px;
+  font-size: 14px;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  background: #f9fafb;
+}
+
+.formInput:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.15);
+  outline: none;
+}
+
+/* Checkbox */
+.checkboxGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.formCheckboxLabel {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #374151;
+}
+
+.formCheckbox {
+  margin-right: 10px;
+  width: 18px;
+  height: 18px;
+  accent-color: #6366f1;
+}
+
+/* Hata mesajları */
+.formError {
+  color: #ef4444;
+  font-size: 12px;
+  min-height: 18px;
+  margin: 6px 10px 0 0;
+}
+
+/* Buton */
+.formButton {
+  padding: 14px 0;
+  background: linear-gradient(90deg, #667eea, #764ba2);
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 15px;
+  box-shadow: 0 6px 15px rgba(102, 126, 234, 0.4);
+}
+
+.formButton:hover {
+  background: linear-gradient(90deg, #5a67d8, #6b46c1);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.45);
+}

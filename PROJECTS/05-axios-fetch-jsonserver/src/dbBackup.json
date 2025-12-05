@@ -1,0 +1,144 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ahmet Yılmaz",
+      "email": "ahmet1@example.com",
+      "age": 28,
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "name": "Ayşe Demirkıran",
+      "email": "ayse2@example.com",
+      "age": 32,
+      "postId": 2
+    },
+    {
+      "id": 3,
+      "name": "Mehmet Kaya",
+      "email": "mehmet3@example.com",
+      "age": 25,
+      "postId": 3
+    },
+    {
+      "id": 4,
+      "name": "Zeynep Çelik",
+      "email": "zeynep4@example.com",
+      "age": 30,
+      "postId": 4
+    },
+    {
+      "id": 5,
+      "name": "Ali Arslan",
+      "email": "ali5@example.com",
+      "age": 27,
+      "postId": 5
+    },
+    {
+      "id": 6,
+      "name": "Elif Yıldız",
+      "email": "elif6@example.com",
+      "age": 29,
+      "postId": 6
+    },
+    {
+      "id": 7,
+      "name": "Can Öztürk",
+      "email": "can7@example.com",
+      "age": 31,
+      "postId": 7
+    },
+    {
+      "id": 8,
+      "name": "Merve Aksoy",
+      "email": "merve8@example.com",
+      "age": 24,
+      "postId": 8
+    },
+    {
+      "id": 9,
+      "name": "Burak Koç",
+      "email": "burak9@example.com",
+      "age": 26,
+      "postId": 9
+    },
+    {
+      "id": 10,
+      "name": "Fatma Uçar",
+      "email": "fatma10@example.com",
+      "age": 33,
+      "postId": 10
+    },
+    {
+      "id": 11,
+      "name": "Serkan Demir",
+      "email": "serkan11@example.com",
+      "age": 29,
+      "postId": 11
+    },
+    {
+      "id": 12,
+      "name": "Ceren Kaplan",
+      "email": "ceren12@example.com",
+      "age": 28,
+      "postId": 12
+    },
+    {
+      "id": 13,
+      "name": "Emre Polat",
+      "email": "emre13@example.com",
+      "age": 32,
+      "postId": 13
+    },
+    {
+      "id": 14,
+      "name": "Seda Yılmaz",
+      "email": "seda14@example.com",
+      "age": 27,
+      "postId": 14
+    },
+    {
+      "id": 15,
+      "name": "Onur Aras",
+      "email": "onur15@example.com",
+      "age": 30,
+      "postId": 15
+    },
+    {
+      "id": 16,
+      "name": "Esra Şahin",
+      "email": "esra16@example.com",
+      "age": 26,
+      "postId": 16
+    },
+    {
+      "id": 17,
+      "name": "Ahmet Can",
+      "email": "ahmet17@example.com",
+      "age": 31,
+      "postId": 17
+    },
+    {
+      "id": 18,
+      "name": "Derya Tekin",
+      "email": "derya18@example.com",
+      "age": 25,
+      "postId": 18
+    },
+    {
+      "id": 19,
+      "name": "Kaan Yücel",
+      "email": "kaan19@example.com",
+      "age": 29,
+      "postId": 19
+    },
+    {
+      "id": 20,
+      "name": "Büşra Güler",
+      "email": "busra20@example.com",
+      "age": 28,
+      "postId": 20
+    }
+  ]
+}
